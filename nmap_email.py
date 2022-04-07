@@ -29,7 +29,7 @@ smtp_server = ""
 smtp_port = ""
 Customer_Name = ""
 Customer_Subject = ""
-os.chdir('/usr/src/nmap-scan')
+#os.chdir('/usr/src/')
 
 def main():
     """Start of the program."""

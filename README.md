@@ -3,11 +3,9 @@
 ## Scan with nmap and send a mail if a new port is open.
 
 ### Install:
-mkdir /usr/src/nmap-scan
-
 cd /usr/src
 
-git clone https://github.com/teknoprep/namp-scan.git
+git clone https://github.com/teknoprep/NmapScan.git
 
 
 Nmap needs to be installed. (*apt install nmap* on Ubuntu/Debian systems)
