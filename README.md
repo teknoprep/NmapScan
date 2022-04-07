@@ -10,7 +10,7 @@ cd /usr/src
 git clone https://github.com/teknoprep/namp-scan.git
 
 
-Nmap need to be installed. (*apt install nmap* on Ubuntu/Debian systems)
+Nmap needs to be installed. (*apt install nmap* on Ubuntu/Debian systems)
 Sender_email, receiver_email and password needs to be added in **def mail**.
 
 ### To use
