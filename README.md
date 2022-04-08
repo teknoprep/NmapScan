@@ -6,6 +6,7 @@
 cd /usr/src
 
 git clone https://github.com/teknoprep/NmapScan.git
+apt install nmap xsltproc
 
 
 Nmap needs to be installed. (*apt install nmap* on Ubuntu/Debian systems)
