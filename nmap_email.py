@@ -89,6 +89,8 @@ def create_html(xml_file_name, ip_a):
         if x :
             xml=file
             html=x[0]+".html"
+        else:
+            html = ""
         subprocess.call(['xsltproc',xml_file_name_new,'-o',html])
     print("------------------------------SUCESSSSS----------------------------------------------------")
     send_mail_new(send_from= sender_email, subject= Customer_Name, text="This is left blank for now", send_to= receiver_email, files= xml_file_name_new_html)
